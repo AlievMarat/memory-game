@@ -2,7 +2,7 @@ import React from "react";
 
 interface ICards {
   cards: (number | string)[]; // Массив может содержать числа и строки
-  flippedCards: boolean[]; // Булевый массив для отображения перевернутых карт
+  flippedCards: boolean[]; // массив для отображения перевернутых карт
   handleCardClick: (index: number, e: React.MouseEvent<HTMLDivElement>) => void;
   matchedCards: number[]; // Индексы карт, которые совпали
   matchedIndexes: number[];
